@@ -11,8 +11,6 @@ CREATE TABLE reserve
     CONSTRAINT reserve_pk PRIMARY KEY (reservation_id)
 );
 
-select * from reserve;
-
 CREATE TABLE loc
 (
     location_id number(15),
